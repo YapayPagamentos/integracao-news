@@ -5,7 +5,7 @@
 	<div class="entry-content">
 
 	  <header>
-	    <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+	    <h1 class="entry-title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
 	    <p class="entry-meta">{{ page.date | date: "%b %-d, %Y" }}
 	    	{% assign categories_list = page.categories %} 
 			{% if index %}
@@ -25,7 +25,7 @@
 	  	{% if index %}
 	  		{{ page.excerpt }}
 	  		{% if page.content contains '<!-- more -->' %}
-	  		<p><a href="{{ site.url }}{{ page.url }}">Read more »</a></p>
+	  		<p><a href="{{ site.baseurl }}{{ page.url }}">Read more »</a></p>
 	  		{% endif %}
   		{% else %}
 	  		{{ content }}
@@ -40,7 +40,7 @@
 	<ul>
 	{% for post in site.posts %}
 		{% if page.related contains post.title %}
-		<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+		<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 		{% endif %}
 	{% endfor %}
 	</ul>
@@ -52,7 +52,7 @@
 {% if index != true and content and page.author_footer != false %}
 <div class="article-author">
     <div class="avatar">
-    <img width="50" height="50" src="{{site.url}}{{author.image}}" alt="{{ author.name }}"/>
+    <img width="50" height="50" src="{{site.baseurl}}{{author.image}}" alt="{{ author.name }}"/>
     </div>
     <div class="name">
         <h4><b>{{author.name}}</b> </h4>
