@@ -2,7 +2,7 @@
 layout: post
 title: "Yapay Magento 1 v1.3.9"
 date:   2019-03-13 10:10:00 -0300
-categories: [integracao, magento]
+categories: [magento]
 author: ana_nava
 ---
 
