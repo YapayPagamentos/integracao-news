@@ -10,7 +10,8 @@ title: Informativo Integração
 email: integracao@yapay.com.br
 description: > # this means to ignore newlines until "baseurl:"
   Informativo Integração Yapay
-url: "" # the subpath of your site, e.g. /blog
+url: ""
+baseurl: "https://yapaypagamentos.github.io/info-integracao"
 
 
 
