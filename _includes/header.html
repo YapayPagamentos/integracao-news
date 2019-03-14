@@ -7,10 +7,10 @@
   <div class="links">
   {% assign current = page.title %}
   <a href="{{site.baseurl}}" class="page-link{% if current == null %} active{% endif %}">Inicial</a>
-  <a href="{{site.baseurl}}woocommerce" class="page-link{% if current == null %} active{% endif %}">WooCommerce</a>
-  <a href="{{site.baseurl}}magento" class="page-link{% if current == null %} active{% endif %}">Magento</a>
-  <a href="{{site.baseurl}}prestashop" class="page-link{% if current == null %} active{% endif %}">PrestaShop</a>
-  <a href="{{site.baseurl}}opencart" class="page-link{% if current == null %} active{% endif %}">OpenCart</a>
+  <a href="{{site.baseurl}}/woocommerce" class="page-link{% if current == null %} active{% endif %}">WooCommerce</a>
+  <a href="{{site.baseurl}}/magento" class="page-link{% if current == null %} active{% endif %}">Magento</a>
+  <a href="{{site.baseurl}}/prestashop" class="page-link{% if current == null %} active{% endif %}">PrestaShop</a>
+  <a href="{{site.baseurl}}/opencart" class="page-link{% if current == null %} active{% endif %}">OpenCart</a>
   {% for page in site.pages %}
     {% if page.title and page.permalink != "/404.html" %}
       <a class="page-link{% if current == page.title %} active{% endif %}"
