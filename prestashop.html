@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div>
+
+  	{% assign index = true %}
+	{% assign posts =   site.categories['prestashop'] %}
+
+
+    {% for post in posts %}
+		{% assign page = post %}
+		{% include post.html %}
+    {% endfor %}
+
+
+</div>

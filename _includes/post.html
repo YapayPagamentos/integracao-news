@@ -1,0 +1,63 @@
+{% assign author = site.authors[page.author] %}
+
+<div class="entry">
+
+	<div class="entry-content">
+
+	  <header>
+	    <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+	    <p class="entry-meta">{{ page.date | date: "%b %-d, %Y" }}
+	    	{% assign categories_list = page.categories %} 
+			{% if index %}
+			        •  {{author.name}}
+			{% endif %}
+	    	{%	if categories_list.size > 0 %} 
+	    
+	    		• Category: 
+	    			{% for category in categories_list %}
+					      <a href="#{{category|slugize}}">{{category}}</a>
+    	    		{% endfor %}
+		  {% endif %}
+		</p>
+	  </header>
+
+	  <article class="entry-body">
+	  	{% if index %}
+	  		{{ page.excerpt }}
+	  		{% if page.content contains '<!-- more -->' %}
+	  		<p><a href="{{ site.url }}{{ page.url }}">Read more »</a></p>
+	  		{% endif %}
+  		{% else %}
+	  		{{ content }}
+  		{% endif %}
+	  </article>
+
+  </div>
+
+{% if index != true and content and page.related %}
+<div class="related-posts">
+	<h2>Posts Relacionados</h2>
+	<ul>
+	{% for post in site.posts %}
+		{% if page.related contains post.title %}
+		<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+		{% endif %}
+	{% endfor %}
+	</ul>
+</div>
+{% endif %}
+
+</div>
+
+{% if index != true and content and page.author_footer != false %}
+<div class="article-author">
+    <div class="avatar">
+    <img width="50" height="50" src="{{site.url}}{{author.image}}" alt="{{ author.name }}"/>
+    </div>
+    <div class="name">
+        <h4><b>{{author.name}}</b> </h4>
+        {{author.bio}}
+    </div>
+</div>
+
+{% endif %}
