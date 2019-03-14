@@ -2,7 +2,7 @@
 layout: post
 title: "Yapay WooCommerce v0.2.7"
 date:   2019-03-13 10:30:00 -0300
-categories: [integracao, woocommerce]
+categories: [woocommerce]
 author: ana_nava
 ---
 
