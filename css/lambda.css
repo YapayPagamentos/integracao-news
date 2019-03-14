@@ -391,10 +391,17 @@ button:hover, input[type=button]:hover, .button:hover {
 
 @media all and (max-width: 550px) {
     #site-title img {
-        width: 25px;
+        width: 100px;        
+    }
+    #site-title a {
+        font-size: 18px        
+    }    
+    .links{
+        margin: 10px 0;
+        text-align: center;
     }
     .links a {
-        margin-right: 2px;
+        margin-right: 10px;        
         font-size: 14px;
     }
     .links .github-link {
@@ -407,13 +414,26 @@ button:hover, input[type=button]:hover, .button:hover {
         padding-left: 15px;
         padding-right: 15px;
     }
+    .entry h1 a {
+        font-size: 24px;
+    }
+    .entry .entry-body h2 { 
+        font-size: 20px;
+    }    
+    .entry .entry-body p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .entry .entry-body h3 {
+        font-size: 17px;
+    }
     .entry h1 {
         font-size: 28px;
         line-height: 30px;
         margin-bottom: 7px;
     }
     .article-author img {
-        display: none;
+        /*display: none;*/
     }
 }
 
