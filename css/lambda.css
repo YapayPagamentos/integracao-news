@@ -85,11 +85,11 @@ table th {
     /*font-family: 'Sorts Mill Goudy', serif;*/
 }
 #site-title a {
-    color: #00A035;
+    color: #1f2e76;
     text-decoration: none;
 }
 #site-title a:hover {
-    color: #1f2e76;    
+    color: #00A035;    
     transition: all 0.3s ease;
 
 }
