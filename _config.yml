@@ -20,7 +20,7 @@ markdown: kramdown
 exclude: ["README.md"]
 excerpt_separator: "<!-- more -->"
 
-permalink: info-integracao/:categories/:title/
+permalink: /:categories/:title/
 
 authors:
   ana_nava:
