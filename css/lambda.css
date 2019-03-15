@@ -104,7 +104,7 @@ table th {
 #site-title a {
     color: #1f2e76;
     padding-left: 10px;
-    text-decoration: none;
+    text-decoration: none;    
 }
 #site-title a:hover {
     color: #00A035;    
@@ -231,7 +231,7 @@ table th {
 .entry .entry-body {
     margin: 20px 0 15px 0;
     font-size: 15.5px;
-    line-height: 27px;
+    line-height: 20px;
 }
 .entry .entry-body strong,
 .entry .entry-body b {
@@ -411,6 +411,20 @@ button:hover, input[type=button]:hover, .button:hover {
 }
 
 .post pre.terminal code { background-color: #333; }
+
+@media all and (max-width: 760px) {
+    #site-title a {
+        font-size: 25px;
+    }
+    #site-title img {
+        width: 89px;
+    }
+    .links {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+}
+
 
 @media all and (max-width: 550px) {
     #site-title img {
