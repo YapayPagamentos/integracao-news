@@ -82,6 +82,7 @@ table th {
     padding-top: 25px;
     border-top: 2px solid #5db346;    
     margin: 100px auto 0 auto;
+
 }
 
 .site-footer p {
@@ -93,13 +94,16 @@ table th {
 
 #site-title {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
     line-height: normal;
     vertical-align: middle;
+    margin-bottom: 30px;
+    text-align: center;
     /*font-family: 'Sorts Mill Goudy', serif;*/
 }
 #site-title a {
     color: #1f2e76;
+    padding-left: 10px;
     text-decoration: none;
 }
 #site-title a:hover {
@@ -107,6 +111,10 @@ table th {
     transition: all 0.3s ease;
 
 }
+#site-title img {
+    width: 150px;
+}
+
 #site-title a, #site-title img {
     vertical-align: middle;
 }
@@ -114,8 +122,9 @@ table th {
 
 .links {
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 18px;
     vertical-align: middle;
+    text-align: center;
     line-height: normal;
     color: #777;
     padding-left: 1px;
@@ -124,7 +133,7 @@ table th {
     text-decoration: none;
     color: #1f2e76;
     font-weight: 600;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .links a:hover {
     text-decoration: none;
@@ -202,7 +211,7 @@ table th {
 }
 .entry h1 a {
     color: #293272 !important;
-    font-size: 32px;
+    font-size: 28px;
     /*border-bottom: 1px dotted black;*/
 }
 .entry h1 a:hover {
@@ -250,7 +259,7 @@ table th {
 }
 
 .entry .entry-body h2 {
-    font-size: 22px;
+    font-size: 20px;
     padding-top: 15px;
     color: #000 !important;
 }
