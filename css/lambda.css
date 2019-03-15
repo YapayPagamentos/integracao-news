@@ -425,7 +425,6 @@ button:hover, input[type=button]:hover, .button:hover {
     }
 }
 
-
 @media all and (max-width: 550px) {
     #site-title img {
         width: 100px;        
@@ -471,6 +470,19 @@ button:hover, input[type=button]:hover, .button:hover {
     }
     .article-author img {
         /*display: none;*/
+    }
+}
+
+@media all and (max-width: 374px) {
+    #site-title {
+        font-size: 10px;
+    }
+    #site-title img {
+        width: 80px;
+    }
+    .links {
+        font-size: 16px;
+        margin-right: 5px;
     }
 }
 
