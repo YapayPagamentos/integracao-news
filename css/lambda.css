@@ -77,6 +77,20 @@ table th {
     /*width: 700px;*/
     margin: 40px auto 0 auto;
 }
+
+.site-footer {
+    padding-top: 25px;
+    border-top: 2px solid #5db346;    
+    margin: 100px auto 0 auto;
+}
+
+.site-footer p {
+    text-align: right;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #1f2e76;
+}
+
 #site-title {
     font-weight: 700;
     font-size: 25px;
