@@ -27,7 +27,7 @@ Foi liberada a versão 1.3.9 do módulo Yapay Intermediador para magento com as 
 
 * Melhorias de layout na página de sucesso Yapay:
 
-![Magento Página Sucesso Yapay]({{ "assets/article_images/2019-03-13/Success_Magento.png" | absolute_url }})
+![Tela de Sucesso Magento Yapay](https://yapaypagamentos.github.io/integracao-news/assets/article_images/2019-03-13/Success_Magento.png)
 
 * Adicionado o campo Valor Mínimo da Parcela no painel administrativo, ao configurar esse campo será respeitada o valor de parcela mínima no checkout.
 
