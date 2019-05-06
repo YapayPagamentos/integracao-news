@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Yapay Magento 1 v1.3.9"
+title: "Yapay Magento 1 v1.4.0"
 date:   2019-05-06 10:10:00 -0300
 categories: [magento]
 author: ana_nava
