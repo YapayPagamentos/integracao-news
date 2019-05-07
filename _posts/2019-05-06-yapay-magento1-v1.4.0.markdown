@@ -17,6 +17,7 @@ Foi liberada a versão 1.4.0 do módulo Yapay Intermediador para magento com a c
 
 * Foi corrigido o bug da criação de fatura após a aprovação do pedido. Agora os pedidos aprovados serão criados a fatura para continuidade do pedido.
 
+* Ajuste no texto do histórico do pedido no Magento.
 
 
 
