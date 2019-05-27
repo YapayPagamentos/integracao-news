@@ -15,7 +15,7 @@ Foi liberada a versão 2.0.0 do módulo Yapay Intermediador para magento com a c
 
 ### **Melhorias**
 
-* Ajuste página de sucesso para utilizar a própria do Magento (google analytics).
+* Ajuste página de sucesso para utilizar a própria do Magento. Soluciona o problema das URLs trackeadas. (google analytics).
 
 * Adicionado fingerprint para auxiliar a Analise de Antifraude.
 
