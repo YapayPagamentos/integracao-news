@@ -21,6 +21,10 @@ Foi liberada a versão 2.0.0 do módulo Yapay Intermediador para magento com a c
 
 * Criação de fatura após retorno de pagamento Aprovado
 
+* Retirada a bandeira descontinuada Diners
+
+* Atualizaço das URLs
+
 
 ### **Bug Fixes**
 
