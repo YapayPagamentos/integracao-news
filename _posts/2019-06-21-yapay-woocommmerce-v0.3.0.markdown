@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Yapay WooCommerce v0.4.0"
+title: "Yapay WooCommerce v0.4.1"
 date:   2019-06-21 10:10:00 -0300
 categories: [woocommerce]
 author: ana_nava
@@ -8,7 +8,7 @@ author: ana_nava
 
 ## Plugin Yapay WooCommerce 
 
-Foi liberada a versão 0.4.0. do plugin Yapay Intermediador para WooCommerce com a melhoria e bug abaixo:
+Foi liberada a versão 0.4.1 do plugin Yapay Intermediador para WooCommerce com a melhoria e bug abaixo:
 
 <!-- more -->
 
