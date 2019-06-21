@@ -17,6 +17,10 @@ Foi liberada a versão 0.4.1 do plugin Yapay Intermediador para WooCommerce com 
 
 * Adicionada a opção de enviar para a Yapay o código de rastreio do pedido. Essa informaço é importante para liberação do saque do vendedor.
 
+* Removida bandeira Diners.
+
+* Atualização das URls Yapay.
+
 
 ### **Bug Fixes**
 
