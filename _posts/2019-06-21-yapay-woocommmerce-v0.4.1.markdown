@@ -15,7 +15,10 @@ Foi liberada a versão 0.4.1 do plugin Yapay Intermediador para WooCommerce com 
 
 ### **Melhorias**
 
-* Adicionada a opção de enviar para a Yapay o código de rastreio do pedido. Essa informaço é importante para liberação do saque do vendedor.
+* Adicionada a opção de enviar para a Yapay o código de rastreio do pedido. Essa informaço é importante para liberação do saque do vendedor. Após o pedido ficar com o status PROCESSANDO, que significa que o pagamento foi aprovado, é liberado o box na lateral direita com os campos CÓDIGO e URL Transportadora. É importante enviar a URL da Transportadora.
+
+![WooCommerce Rastreio Yapay](https://yapaypagamentos.github.io/integracao-news/images/imgRastreioWooCommerce.png)
+
 
 * Removida bandeira Diners.
 
