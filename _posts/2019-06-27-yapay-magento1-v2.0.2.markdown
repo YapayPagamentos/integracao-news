@@ -8,7 +8,7 @@ author: ana_nava
 
 ## Módulo Yapay Magento 1.X
 
-Foi liberada a versão 2.0.2 do módulo Yapay Intermediador para magento com a correção do bug abaixo:
+Foi liberada a versão 2.0.2 do módulo Yapay Intermediador para magento com a melhoria e a correção do bug abaixo:
 
 <!-- more -->
 
