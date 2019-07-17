@@ -15,7 +15,7 @@ Foi liberada a versão 0.4.2 do plugin Yapay Intermediador para WooCommerce com 
 
 ### **Melhorias**
 
-* Adicionada a opção de realiar compras com CNPJ.
+* Adicionada a opção de realizar compras com CNPJ.
 
 * Adicionado o campo CPF nas formas de pagamento.
  
