@@ -19,6 +19,8 @@ Foi liberada a versão 2.0.3 do módulo Yapay Intermediador para magento com a m
 
 * Atualização REGEX dos BIN de Cartão de Crédito.
 
+* Notificar cliente quando status retornado pela Yapay for APROVADO.
+
 * Adicionada mensagem do retorno do pagamento na Tela de Sucesso do pedido, agora vai informar qual foi a mensagem da Adquirente:
 
 ![Magento Rastreio Yapay](https://raw.githubusercontent.com/YapayPagamentos/integracao-news/master/images/Magento_RetornoMensagem.png)
