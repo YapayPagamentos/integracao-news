@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Yapay Magento 1 v2.0.3"
-date:   2019-08-04 10:10:00 -0300
+date:   2019-09-04 10:10:00 -0300
 categories: [magento]
 author: ana_nava
 ---
