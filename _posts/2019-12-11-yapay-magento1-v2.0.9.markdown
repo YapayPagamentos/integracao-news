@@ -27,7 +27,7 @@ Foi liberada a versão 2.0.9 do módulo Yapay Intermediador para magento com a m
 
 * Melhorias na Tela de Erro do pedido quando a transação é incluída porém ocorre algum retorno de erro da Yapay:
 
-![Tela de Erro Magento Yapay](https://raw.githubusercontent.com/YapayPagamentos/integracao-news/master/images/Magento_TelaErro.png)
+![Tela de Erro Magento Yapay](https://raw.githubusercontent.com/YapayPagamentos/integracao-news/master/images/Magento_TelaErro2.png)
 
 * Atualização REGEX dos BIN de Cartão de Crédito.
 
