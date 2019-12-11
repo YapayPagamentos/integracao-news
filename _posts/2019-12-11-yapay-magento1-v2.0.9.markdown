@@ -29,6 +29,22 @@ Foi liberada a versão 2.0.9 do módulo Yapay Intermediador para magento com a m
 
 ![Tela de Erro Magento Yapay](https://raw.githubusercontent.com/YapayPagamentos/integracao-news/master/images/Magento_TelaErro2.png)
 
+
+* Melhorias dos logs dos pedidos com erros `RAIZ_DO_MAGENTO/var/log/traycheckout.log`
+
+Pedido não incluído na Yapay e cancelado no Magento:
+
+```text
+2019-12-11T19:03:06+00:00 DEBUG (7): Error: Pedido não incluido na Yapay com erro de processamento
+2019-12-11T19:03:06+00:00 DEBUG (7): Error: Response Yapay: Sku Code é muito longo (máximo: 50 caracteres)
+```
+Pedido incluído na Yapay e no Magento com erro:
+
+```text
+2019-12-11T19:03:49+00:00 DEBUG (7): Error: Pedido incluido na Yapay e incluido no Magento
+2019-12-11T19:03:49+00:00 DEBUG (7): Error: Response Yapay: Forma de pagamento inválida
+```
+
 * Atualização REGEX dos BIN de Cartão de Crédito.
 
 
