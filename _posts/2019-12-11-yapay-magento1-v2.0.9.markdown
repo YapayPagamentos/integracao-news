@@ -15,7 +15,7 @@ Foi liberada a versão 2.0.9 do módulo Yapay Intermediador para magento com a m
 
 ### **Melhorias**
 
-* Quando o pedido **NÃO** é incluído na Yapay por algum motivo de erro, exemplo CEP maior que 8 caracteres, o pedido é automaticamente cancelado no painel administrativo do Magento e é adicionado um comentário no pedido:
+* Quando o pedido **NÃO** é incluído na Yapay por algum motivo de erro, exemplo parâmetro sku_code muito longo, o pedido é automaticamente cancelado no painel administrativo do Magento e é adicionado um comentário no pedido:
 
 ![Cometário Pedido Magento Yapay](https://raw.githubusercontent.com/YapayPagamentos/integracao-news/master/images/Pedido_Comentário.png)
 
