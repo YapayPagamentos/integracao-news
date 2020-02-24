@@ -14,7 +14,7 @@ Foi liberada a versão 0.5.3 do plugin Yapay Intermediador para WooCommerce com 
 
 ### **Melhorias**
 
-*Alterar página de finalização de compra para order-received.
+* Alterar página de finalização de compra para order-received.
 
 * Ajustar input do ano do cartão de crédito para dois digitos, ficando MM / YY.
 
