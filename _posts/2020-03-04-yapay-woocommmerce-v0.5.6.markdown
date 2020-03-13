@@ -14,7 +14,9 @@ Foi liberada a versão 0.5.6 do plugin Yapay Intermediador para WooCommerce com 
 
 ### **Bug**
 
-* Correção bug de envio de Código de Rastreio para Yapay com PHP >7.x 
+* Bug fix URL Boleto.
+
+* Correção das imagens das Bandeiras selecionadas na opção de cartão de crédito.
 
 
 
