@@ -18,7 +18,7 @@ Foi liberada a versão 0.5.8 do plugin Yapay Intermediador para WooCommerce com 
 
 * Correção bug de alteração do status dos pedidos.
 
-* Corração de bug na criação da parcela, PHP >= 7.3
+* Corração de bug na criação da parcela `PHP >= 7.3`
 
 
 Na nossa documentação, você consegue verificar como realizar a atualização do nosso módulo Yapay Intermediador para WooCommerce: [https://intermediador.dev.yapay.com.br/#/modulos-yapay-woocommerce](https://intermediador.dev.yapay.com.br/#/modulos-yapay-woocommerce)
