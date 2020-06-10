@@ -17,6 +17,8 @@ Foi liberada a versão 2.1.4 do módulo Yapay Intermediador para magento com os 
 
 * Correção de valor do desconto não estar sendo atualizado no OneStepCheckout.
 
+* Retirado cache do número do cartão.
+
 
 
 
